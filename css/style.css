@@ -1,7 +1,11 @@
 /* *** Header *** */
 
+a {
+  text-decoration: none;
+}
+
 .logo {
-  font-family: "Raleway", "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -17,4 +21,18 @@
 
 .logo-color-b {
   color: #000;
+}
+
+.nav-list {
+  list-style-type: none;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.nav-link {
+  color: #212121;
 }
