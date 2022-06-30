@@ -1,3 +1,11 @@
+/* COLOR */
+:root {
+  --accent-color: #2196f3;
+  --main_white-color: #ffffff;
+  --description-color: #757575;
+  --main-black-color: #212121;
+}
+
 /* *** Header *** */
 
 a {
@@ -16,7 +24,7 @@ a {
 }
 
 .logo-color-a {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .logo-color-b {
@@ -34,5 +42,122 @@ a {
 }
 
 .nav-link {
-  color: #212121;
+  color: var(--main-black-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
+.nav-contact {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  list-style-type: none;
+}
+
+.header-button {
+  color: var(--description-color);
+}
+
+.header-button:hover,
+.header-button:focus {
+  color: var(--accent-color);
+}
+
+/* *** Main section *** */
+.hero-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--main_white-color);
+}
+
+.button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--main_white-color);
+}
+
+.peculiarities-list {
+  list-style-type: none;
+}
+
+.title-h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-black-color);
+}
+
+.title-h3-14 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-black-color);
+}
+
+.title-h3-16 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: var(--main-black-color);
+}
+
+.description14 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: var(--description-color);
+}
+
+.description16 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: var(--description-color);
+}
+
+.main-list {
+  list-style-type: none;
 }
