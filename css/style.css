@@ -31,6 +31,10 @@ a {
   color: #000;
 }
 
+.logo-color-с {
+  color: #fff;
+}
+
 .nav-list {
   list-style-type: none;
   font-family: "Roboto", sans-serif;
@@ -160,4 +164,43 @@ a {
 
 .main-list {
   list-style-type: none;
+}
+
+.address-text-bold {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: var(--main_white-color);
+}
+
+.address-text-thin {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/*  */
+
+.portfolio-button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  letter-spacing: 0.03em;
+
+  color: var(--main-black-color);
 }
