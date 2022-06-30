@@ -140,6 +140,17 @@ a {
   color: var(--main-black-color);
 }
 
+.title-h3-18 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 19px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: var(--main-black-color);
+}
+
 .description14 {
   font-family: "Roboto";
   font-style: normal;
